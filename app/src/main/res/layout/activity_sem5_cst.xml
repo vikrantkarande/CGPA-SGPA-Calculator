@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".sem5Cst"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="0dp">
+
+
+           <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+               <EditText
+                   android:id="@+id/etxtSP"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="System Programming(100)"
+                   android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:id="@+id/etxtCA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Computer Algorithm(100)"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:id="@+id/etxtOS1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Operating System-1(100)"
+                android:inputType="number" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:focusable="true"
+          android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtSE"
+                android:hint="Software Engineering(100)"
+                android:inputType="number"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+          android:focusable="true"
+          android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtCG"
+                android:hint="Computer Graphics and Multimedia Techniques(100)"
+                android:inputType="number"/>
+      </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:focusable="true"
+           android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtSPlab"
+                android:hint="System Programming Lab(50)"
+                android:inputType="number"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:focusable="true"
+           android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtCGlab"
+                android:hint="Computer Graphics and Multimedia Techniques Lab(50)"
+                android:inputType="number"/>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtJavalab"
+                android:hint="Java Programming Lab(100)"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtSeminar"
+                android:hint="Seminar(50)"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtInternship"
+                android:hint="Internship-1(50)"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Calculate"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="Calculate"
+            android:text="Calculate"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
